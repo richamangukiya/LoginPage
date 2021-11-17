@@ -93,7 +93,7 @@ struct ContentView: View {
     
     //MARK: - Method for showing alert
     func showAlert(message: String) {
-        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Message", message: message, preferredStyle: .alert)
         
         let saveAction = UIAlertAction(title: "OK", style: .cancel, handler: { alert -> Void in
         })
